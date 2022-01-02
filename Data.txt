@@ -1,0 +1,28 @@
+ Simple Inverted Index 
+
+ Total No. of Documents         :89
+ Total No. of posting List      :3192
+ Time taken for Index Formation :27.1278555393219  Seconds
+ For Computing AND/OR Operation -------:
+ Posting list  of need         :[0, 25, 29, 30, 40, 42, 46, 48, 49, 50, 51, 53, 67, 85]
+ Posting list  of use       :[7, 8, 9, 14, 19, 25, 31, 47, 54, 55, 62, 63, 76]
+ Posting list  of think      :[2, 10, 25, 43, 55, 57, 61, 63, 66, 72, 75, 83, 88]
+ Posting list  of surface     :[0, 9, 31, 34, 36, 37, 58, 67, 80]
+
+ Computing (pl1 AND pl2) OR (pl3 AND pl4):[25]
+ Computing (pl1 OR pl2) AND (pl3 OR pl4):[0, 9, 25, 31, 55, 63, 67]
+
+
+ Inverted Index after Stemming and Lemmatization
+
+ Total No. of Documents         :89
+ Total No. of posting List      :2383
+ Time taken for Index Formation :4.516660928726196  Seconds
+ For Computing AND/OR Operation -------:
+ Posting list  of need         :[0, 25, 29, 30, 40, 42, 46, 48, 49, 50, 51, 53, 67, 85]
+ Posting list  of use       :[7, 8, 9, 14, 19, 25, 31, 47, 54, 55, 62, 63, 76]
+ Posting list  of think      :[2, 10, 25, 43, 55, 57, 61, 63, 66, 72, 75, 83, 88]
+ Posting list  of surface     :[0, 9, 31, 34, 36, 37, 58, 67, 80]
+
+ Computing (pl1 AND pl2) OR (pl3 AND pl4) :[25]
+ Computing (pl1 OR pl2) AND (pl3 OR pl4)  :[0, 9, 25, 31, 55, 63, 67]
