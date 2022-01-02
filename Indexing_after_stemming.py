@@ -23,7 +23,7 @@ start_time = time.time()
 docs = []
 
 'Read Files form a directory'
-for path in pathlib.Path("test1").iterdir():
+for path in pathlib.Path("sci.electronics").iterdir():
     if path.is_file():
         current_file = open(path, "r")
         docs.append(current_file.read())
